@@ -30,7 +30,7 @@ No representa una arquitectura de producción optimizada.
 
 ## Diagrama
 
-
+![Arquitectura](Diagrama.png)
 
 ## Nota
 Este laboratorio tiene fines de estudio técnico.
