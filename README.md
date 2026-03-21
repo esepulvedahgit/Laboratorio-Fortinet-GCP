@@ -14,6 +14,7 @@ No representa una arquitectura de producción optimizada.
 - Nginx + PHP + SQLite (app web de prueba)
 - Cloudflare (DNS + dominio real)
 - Kali Linux (simulación de ataques)
+- Atakes realizados basados  en MITTRE AT&ACK
 
 ## Qué se practica en este lab
 
