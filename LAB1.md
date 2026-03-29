@@ -22,10 +22,6 @@ dirigido al formulario de login de la aplicación web EduLab Academy, desplegada
 | Protección activa | WAF profile `web-server` aplicado en política `webserver (2)` |
 | Flujo de tráfico | Internet → VPC WAN (port1) → FortiGate → VPC DMZ (port2) → 10.20.0.10:80 |
 
-## Diagrama GCP
-
-![Diagrama GCP](Diagrama.png)
-
 ## Descripción del ataque
 
 El payload XSS clásico `<script>alert('XSS')</script>` fue ingresado en el campo
