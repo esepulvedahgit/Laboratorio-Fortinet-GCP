@@ -14,7 +14,7 @@ dirigido al formulario de login de la aplicación web EduLab Academy, desplegada
 
 # Diagrama
 
-![Diagrama](/Diagrama.png)
+![Diagrama](Diagrama.png)
 
 
 # Configuracion Policy
