@@ -12,6 +12,10 @@ dirigido al formulario de login de la aplicación web EduLab Academy, desplegada
 | Initial Access | Exploit Public-Facing Application | T1190 |
 | Execution | Command and Scripting Interpreter: JavaScript | T1059.007 |
 
+# Diagrama
+
+![Diagrama](Diagrama.png)
+
 ## Infraestructura involucrada
 
 | Componente | Detalle |
