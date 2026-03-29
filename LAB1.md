@@ -24,7 +24,7 @@ dirigido al formulario de login de la aplicación web EduLab Academy, desplegada
 
 ## Diagrama GCP
 
-![Diagrama GCP](Diagrama)
+![Diagrama GCP](Diagrama.png)
 
 ## Descripción del ataque
 
