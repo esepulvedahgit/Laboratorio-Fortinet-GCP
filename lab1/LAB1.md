@@ -14,7 +14,23 @@ dirigido al formulario de login de la aplicación web EduLab Academy, desplegada
 
 # Diagrama
 
-![Diagrama](Diagrama.png)
+![Diagrama](/Diagrama.png)
+
+
+# Configuracion Policy
+
+La politica webserver (2) controla el trafico desde WAM-MGNT (port1) hacia DMZ (port2). Tiene inspeccion en modo proxy-based, IPS activo con el perfil Linux_protect_http_server, y WAF activo con el perfil web-server. SSL Inspection configurado como no-inspection porque el certificado TLS lo termina FortiGate via Virtual Server.
+
+# Configuraion WAF
+
+![Politica](lab1-policy-waf.png)
+
+# Configuraion WAF
+
+El perfil web-server tiene habilitadas las firmas criticas con accion Block. Cross Site Scripting y XSS Extended cubren el vector usado en este lab. SQL Injection, Generic Attacks, Information Disclosure y Known Exploits completan la cobertura OWASP.
+
+![Prifile custom WAF](lab1-profile-waf.png) 
+
 
 ## Infraestructura involucrada
 
