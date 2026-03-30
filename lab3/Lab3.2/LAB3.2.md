@@ -34,7 +34,7 @@ La logica del lab:
 
 ## Diagrama de arquitectura
 
-![Diagrama de arquitectura](Diagrama_cloud.png)
+![Diagrama de arquitectura](Diagrama.png)
 
 ---
 
